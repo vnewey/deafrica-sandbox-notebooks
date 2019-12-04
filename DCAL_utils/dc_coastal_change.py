@@ -19,8 +19,8 @@
 # License for the specific language governing permissions and limitations
 # under the License.
 
-from .dc_water_classifier import wofs_classify
-from .dc_utilities import create_cfmask_clean_mask, create_bit_mask
+from dc_water_classifier import wofs_classify
+from dc_utilities import create_cfmask_clean_mask, create_bit_mask
 from datetime import datetime
 
 import scipy.ndimage.filters as conv

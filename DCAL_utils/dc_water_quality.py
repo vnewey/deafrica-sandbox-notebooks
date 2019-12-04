@@ -3,8 +3,8 @@ import numpy as np
 import xarray as xr
 import scipy.ndimage.filters as conv
 
-from . import dc_utilities as utilities
-from .dc_utilities import create_default_clean_mask
+import dc_utilities as utilities
+from dc_utilities import create_default_clean_mask
 from datetime import datetime
 
 

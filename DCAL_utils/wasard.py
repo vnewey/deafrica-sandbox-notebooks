@@ -12,7 +12,7 @@ import matplotlib.pyplot as plt
 import matplotlib.image as mpimg
 import scipy.ndimage 
 from sklearn.externals import joblib
-from .dc_water_classifier import wofs_classify
+from dc_water_classifier import wofs_classify
 import random
 import itertools
 from sklearn.metrics import f1_score, recall_score, precision_score

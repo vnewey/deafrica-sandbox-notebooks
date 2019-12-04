@@ -1,6 +1,6 @@
 import numpy as np
 
-from .vegetation import NDVI
+from vegetation import NDVI
 
 def NDBI(ds):
     """

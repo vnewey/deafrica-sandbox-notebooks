@@ -1,8 +1,8 @@
-from .dc_water_classifier import wofs_classify
+from dc_water_classifier import wofs_classify
 import xarray as xr
 import numpy as np
 # This import is only for
-from .vegetation import EVI as _EVI_orig, EVI2 as _EVI2_orig, NDVI as _NDVI_orig
+from vegetation import EVI as _EVI_orig, EVI2 as _EVI2_orig, NDVI as _NDVI_orig
 
 
 def EVI(*args, **kwargs):
